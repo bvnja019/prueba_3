@@ -1,6 +1,6 @@
 
 footer{
-    background-color: rgb(64, 4, 77);
+    background-color: rgb(100, 13, 107);
     padding: 40px;
     margin-bottom: 0%;
     color: white;
@@ -21,13 +21,28 @@ main{
     float: left;
 }
 
-.casasGoT{
+*{
+    margin: 0;
+}
+
+.parrafo{
     float: right;
     padding: 40px;
     margin: 20px;
+    background-color: rgb(230, 92, 25);
+    color: white;
+    
 }
 
 .custom-navbar{
-    background-color: rgb(64, 4, 77);
+    background-color: rgb(100, 13, 107);
 
+}
+
+
+
+.color-definir{
+
+    background-color: rgb(181, 27, 117);
+    margin: 0;
 }
