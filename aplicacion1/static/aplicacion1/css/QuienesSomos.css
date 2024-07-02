@@ -74,3 +74,34 @@ footer h6{
     padding: 1.3rem;
     font-size: 1.4rem;
 }
+.servicio-1__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.servicio-1{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+}
+.gap{
+    gap: 2rem;
+}
+.servicio-2{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem !important;
+}
+.servicio-1__titulo{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+}
+.servicio-1__texto{
+    font-size: 1.4rem;
+}
+.servicio-1__texto__lista{
+    font-size: 1.4rem;
+    margin: 1.5rem;
+}
