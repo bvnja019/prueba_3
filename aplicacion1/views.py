@@ -8,3 +8,7 @@ def index(request):
 def quienesSomos(request):
     context = {}
     return render (request, 'alumnos/quienesSomos.html',context)
+
+def servicios(request):
+    context = {}
+    return render (request, 'alumnos/servicios.html',context)
