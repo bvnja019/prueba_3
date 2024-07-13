@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
 
@@ -31,115 +32,134 @@
         </nav>
     </header>
 
-    <main>
-        <h1 class="servicio-1__titulo" data-aos="zoom-in">
-            Nuestros Servicios
-        </h1>
-        <div class="container gap">
-            <div class="row">
-                <div class="col-lg-6 md-6 sm-12 servicio-1__img my-3" data-aos="fade-right">
-                    <img src="../../static/aplicacion1/img/imagen-sof-benjamin.jpg" width="100%" alt="">
-                </div>
-                <div class="col-lg-6 md-6 sm-12">
-                    <div class="container my-3 servicio-1">
-                        <h2 data-aos="fade-left" class="text-center servicio-1__titulo">
-                            Tecnologia y Software 
-                        </h2>
-                        <p data-aos="fade-right" class="servicio-1__texto">
-                            Contamos con un equipo de profesionales altamente calificados, comprometidos a brindar todos nuestros servicios con la máxima calidad, garantizando así una experiencia excepcional para nuestros clientes. <br>
-                            Ofrecemos una extensa gama de tecnologías, tales como:
-                        </p>
-                        <ul data-aos="fade-left" class="servicio-1__texto__lista">
-                            <li>Desarrollo de aplicaciones móviles.</li>
-                            <li>Soluciones de software a medida.</li>
-                            <li>Servicios de ciberseguridad.</li>
-                            <li>Desarrollo de inteligencia artificial y machine learning.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container gap">
-            <div class="row">
-                <div class="col-lg-6 md-6 sm-12">
-                    <div class="container servicio-2">
-                        <h2 class="text-center servicio-1__titulo" data-aos="zoom-in">
-                            E-comerce y retail 
-                        </h2>
-                        <p class="servicio-1__texto" data-aos="fade-left">
-                            Ofrecemos una extensa gama de tecnologías en E-comerce y retail, tales como:
-                        </p>
-                        <ul class="servicio-1__texto__lista" data-aos="fade-right">
-                            <li>Marketplaces en línea.</li>
-                            <li>Servicios de logística y entrega a domicilio.</li>
-                            <li>Soluciones de gestión de inventarios.</li>
-                            <li>Tecnología de realidad aumentada para compras.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6 md-6 sm-12 servicio-1__img my-3" data-aos="fade-left">
-                    <img src="../../static/aplicacion1/img/retail-benjamin.png" width="100%" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="container gap">
-            <div class="row">
-                <div class="col-lg-6 md-6 sm-12 servicio-1__img my-3" data-aos="fade-right">
-                    <img src="../../static/aplicacion1/img/mark-benjamin.jpg" width="100%" alt="">
-                </div>
-                <div class="col-lg-6 md-6 sm-12">
-                    <div class="container my-3 servicio-1">
-                        <h2 class="text-center servicio-1__titulo" data-aos="fade-left">
-                            Marketing Digital
-                        </h2>
-                        <p class="servicio-1__texto" data-aos="fade-right">
-                            Contamos con un equipo de profesionales altamente calificados, comprometidos a brindar todos nuestros servicios con la máxima calidad, garantizando así una experiencia excepcional para nuestros clientes. <br>
-                            Ofrecemos una extensa gama de tecnologías, tales como:
-                        </p>
-                        <ul class="servicio-1__texto__lista" data-aos="fade-left">
-                            <li>Marketing digital y SEO.</li>
-                            <li>Gestión de redes sociales.</li>
-                            <li>Creación de contenido y diseño gráfico.</li>
-                            <li>Análisis de datos y métricas de marketing.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
 
-
-
-
-
-
-
-    <footer> 
+    <section class="container">
         <div class="row">
-            <div class="col-12 col-lg-6" data-aos="fade-left">
-                <img src="../../static/aplicacion1/img/logocorfo.png" alt="CorfoImagen">
+
+            <h1 class="my-4">
+                Catalogo de Libros
+            </h1>
+
+            <div class="col-lg-12 md-12 sm-12">
+              <table class="table table-dark table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Editorial</th>
+                    <th scope="col">Autor</th>
+                    <th scope="col">Accion</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>El libro de Bill-Preventa</td>
+                    <td>Planeta Hirsch </td>
+                    <td>Alex Magico</td>
+                    <td><button type="button" class="btn btn-success"><i class="bi bi-eye"></i> Ver Mas</button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Psicosis</td>
+                    <td>Cult Books</td>
+                    <td>Varios Autores</td>
+                    <td><button type="button" class="btn btn-success"><i class="bi bi-eye"></i> Ver Mas</button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Si te gusta la oscuridad</td>
+                    <td>Plaza & Janes</td>
+                    <td>Stephen King</td>
+                    <td><button type="button" class="btn btn-success"><i class="bi bi-eye"></i> Ver Mas</button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>No tengo por que estar de acuerdo con lo que pienso</td>
+                    <td>Planeta Gol</td>
+                    <td>Carlos Caszely</td>
+                    <td><button type="button" class="btn btn-success"><i class="bi bi-eye"></i> Ver Mas</button></td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-            <div class="col-12 col-lg-6 logos" data-aos="fade-down" data-aos-duration="1200">
-                <a href="#"><i class="bi bi-linkedin m-2"></i></a>
-                <a href="#"><i class="bi bi-instagram m-2"></i></a>
-                <a href="#"><i class="bi bi-facebook m-2"></i></a>
-                <a href="#"><i class="bi bi-whatsapp m-2"></i></a>
-                <a href="#"><i class="bi bi-twitter-x m-2"></i></a>
-                <a href="#"><i class="bi bi-reddit m-2"></i></a>
-                
+        </div>
+    </section>
+    <section class="container">
+        <h2>
+            Colección Digital
+        </h2>
+        <hr>
+        <div class="row display-flex-center">
+            <div class="col-lg-6 md-6 sm-12 display-flex-center">
+                <div style="width: 50%;">
+                    <img src="../../static/aplicacion1/img/libro-5.jpg" style="object-fit: cover;" class="card-img-top card-img-buttom" alt="...">
+                    <div class="card-body">
+                        <p>
+                            Memoria Chilena ofrece documentos y contenidos originales relativos a temas clave de nuestra identidad cultural que forman parte de las colecciones de la Biblioteca Nacional de Chile y de otras instituciones del Servicio Nacional del Patrimonio Cultural. Las obras que se digitalizan y ponen en línea a través de Memoria Chilena son seleccionadas por investigadores especializados.
+                        </p>
+                        <br>
+                        <button type="button" class="btn btn-success"><i class="bi bi-eye"></i> Ver Mas</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 md-6 sm-12 display-flex-center">
+                <div style="width: 50%;">
+                    <img src="../../static/aplicacion1/img/libro-6.jpg" style="object-fit: cover;" class="card-img-top card-img-buttom" alt="...">
+                    <div class="card-body">
+                        <p>
+                            Actualmente, Chile para niños cuenta con más de 40 minisitios. Para cada uno de ellos, se han seleccionado 6 recursos digitales asociados. Dos de ellos son siempre una palabra y una actividad, los restantes serán imágenes, documentos, audio y video. Las actividades, las entendemos como una vía de conexión entre los contenidos entregados y la vida cotidiana de los niños y niñas.
+                        </p>
+                        <br>
+                        <button type="button" class="btn btn-success"><i class="bi bi-eye"></i> Ver Mas</button>
+                    </div>
+                </div>
             </div>
         </div>
-        <hr>
-        <div data-aos="zoom-in">
-            <h6 class="text-center">CONTACTANOS!</h6>
+    </section>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-lg-6 md-6 sm-12 display-flex">
+                <div class="card" style="width: 13rem;">
+                    <img src="../../static/aplicacion1/img/libro-1.jpg" style="object-fit: cover;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">El libro de bill - Preventa</h5>
+                        <p class="card-text">Editorial: Planeta hirsch <br> autor: alex magico</p>
+                        <a href="#" class="btn btn-success centro">Ver mas</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 13rem;">
+                    <img src="../../static/aplicacion1/img/libro-2.jpg" style="object-fit: cover;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Psicosis </h5>
+                        <p class="card-text">Editorial: Cult Books <br> Autor: Varios autores</p>
+                        <a href="#" class="btn btn-success centro">Ver mas</a>
+                    </div>
+                </div>
+            </div>                
+            <div class="col-lg-6 md-6 sm-12 display-flex">
+                <div class="card" style="width: 13rem;">
+                    <img src="../../static/aplicacion1/img/libro-3.jpg" style="object-fit: cover;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Si te gusta la oscuridad </h5>
+                        <p class="card-text">Editorial: Plaza & Janes <br> Autor: Stephen King </p>
+                        <a href="#" class="btn btn-success centro">Ver mas</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 13rem;">
+                    <img src="../../static/aplicacion1/img/libro-4.jpg" style="object-fit: cover;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">No tengo por que estar de acuerdo con lo que pienso</h5>
+                        <p class="card-text">Editorial: Planeta <br> Autor: Carlos Caszely </p>
+                        <a href="#" class="btn btn-success centro">Ver mas</a>
+                    </div>
+                </div>
+            </div>  
         </div>
-        <hr>
-        <div>
-            <p class="text-center">
-                Start-up Chile - Derechos reservados
-            </p>
-        </div>
-    </footer>
+        
+    </main>
+        
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
